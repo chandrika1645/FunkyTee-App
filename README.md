@@ -1,7 +1,5 @@
-<h1><p align="center"><b><b>Plotline Ecommerse Based API Backend</b></b>
+<h1><p align="center"><b><b>FunkyTee Ecommerse API Backend</b></b>
 </p></h1>
-.# Plotline E-commerce Backend API
-
 This repository contains the backend API for a robust e-commerce platform developed using the MERN stack. The API provides essential functionalities for user authentication, category management, and product operations.
 
 
