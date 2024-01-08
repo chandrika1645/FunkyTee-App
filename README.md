@@ -3,7 +3,16 @@
 This repository contains the backend API for a robust e-commerce platform developed using the MERN stack. The API provides essential functionalities for user authentication, category management, and product operations.
 
 
-![Ecommerse Backend   API BASED ](https://github.com/Hjiwnain/PlotLine-Ecommerce/assets/80636235/38888a2b-817e-4f01-88c8-0cd18f16bef2)
+<p align="center">
+  <img alt="Ecommerse Backend API BASED" src="https://github.com/chandrika1645/FunkyTee-App/blob/main/client/build/images/new-logo.png">
+   <div align="center">
+   <h1>
+      FUNKYTEE
+      ONLINE SHOPPING
+   </h1>
+   </div>
+</p>
+
 
 ## Table of Contents
 
@@ -97,3 +106,7 @@ The application should now be running on 'http://localhost:3000'.
 # License
 
 - This project is open-source and available under the MIT License
+
+<p align="center">
+  <img alt="Ecommerse Backend API BASED" src="https://github.com/chandrika1645/FunkyTee-App/blob/main/client/build/images/banner.jpg">
+</p>
