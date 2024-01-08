@@ -106,7 +106,7 @@ The application should now be running on 'http://localhost:3000'.
 # License
 
 - This project is open-source and available under the MIT License
-
+<h1></h1>
 <p align="center">
   <img alt="Ecommerse Backend API BASED" src="https://github.com/chandrika1645/FunkyTee-App/blob/main/client/build/images/banner.jpg">
 </p>
