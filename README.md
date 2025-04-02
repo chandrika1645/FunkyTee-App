@@ -1,17 +1,31 @@
-<h1><p align="center"><b><b>FunkyTee Ecommerse API Backend</b></b>
-</p></h1>
-This repository contains the backend API for a robust e-commerce platform developed using the MERN stack. The API provides essential functionalities for user authentication, category management, and product operations.
+This repository contains the backend API for FunkyTee, an e-commerce platform developed using the MERN stack. The application provides essential features such as user authentication, category management, product operations, and payment integration.
+
+Although the frontend was initially built with React, only the production build files remain. When the backend runs on port 8080, it automatically serves the frontend.
+
+Preview
+
+Below are screenshots of different pages of the application located in the app-preview folder:
+
+## Home Page
+
+ <img src="https://raw.githubusercontent.com/chandrika1645/FunkyTee-App/main/app-preview/home-page.png" width="700">
+
+ ## Header 
+ 
+ <img src="https://raw.githubusercontent.com/chandrika1645/FunkyTee-App/main/app-preview/header.png" width="700">
+
+## Product Page
+
+ <img src="https://raw.githubusercontent.com/chandrika1645/FunkyTee-App/main/app-preview/all-products.png" width="700">
+
+## Category Page
+
+ <img src="https://raw.githubusercontent.com/chandrika1645/FunkyTee-App/main/app-preview/category-page.png" width="700">
 
 
-<p align="center">
-  <img alt="Ecommerse Backend API BASED" src="https://github.com/chandrika1645/FunkyTee-App/blob/main/client/build/images/new-logo.png">
-   <div align="center">
-   <h1>
-      FUNKYTEE
-      ONLINE SHOPPING
-   </h1>
-   </div>
-</p>
+## Checkout Page
+
+ <img src="https://raw.githubusercontent.com/chandrika1645/FunkyTee-App/main/app-preview/checkout-page.png" width="700">
 
 
 ## Table of Contents
@@ -25,10 +39,7 @@ This repository contains the backend API for a robust e-commerce platform develo
 
 ## Prerequisites
 
-To run this project, you'll need:
-
-    - A laptop or computer.
-    - [Node.js and NPM](https://nodejs.org/).
+    - Node.js and NPM
     - Mongodb database.
 
 ## Installation & Setup
@@ -46,26 +57,24 @@ To run this project, you'll need:
 
 
 ## 3. Database Setup:
-Create a MongoDB database and take note of your connection configurations. Rename .env.example to .env and fill in your database details:
+Create a MongoDB database and update the .env file with your connection details:
 
-    • Create a MongoDB database and take note of your connection configurations.
-    • Rename .env.example to .env and fill in your database details:.
-    • PORT=8080
-    • DEV_MODE=development
-    • MONGO_URL=mongodb+srv://chandrikaVIT:chandrika@cluster0.c8rc9sh.mongodb.net/Ecommerce
-    • JWT_SECRET=HGFHGEAD1212432432
-    • BRAINTREE_MERCHANT_ID=grdpjv6fytc3vj53
-    • BRAINTREE_PUBLIC_KEY=t3p55mzbkbzxdvdd
-    • BRAINTREE_PRIVATE_KEY=585145df08fbfd430a58b4b934572192
+    PORT=8080
+    DEV_MODE=development
+    MONGO_URL=<your-mongo-url>
+    JWT_SECRET=<your-secret-key>
+    BRAINTREE_MERCHANT_ID=<your-merchant-id>
+    BRAINTREE_PUBLIC_KEY=<your-public-key>
+    BRAINTREE_PRIVATE_KEY=<your-private-key>
 
 # Starting the Application
 
 ## 1. Start the app:
 
-    node app.js
+    npm run start
 
 
-The application should now be running on 'http://localhost:3000'.
+The application should now be running on 'http://localhost:8080'.
 
 # API Endpoints
 
@@ -105,15 +114,11 @@ The application should now be running on 'http://localhost:3000'.
     • /braintree/token: Get Braintree token for payment.
     • /braintree/payment: Process payments using Braintree.
 
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
 
-# Contributing
-
-- Wish to contribute? Feel free to open a pull request. For significant changes, kindly open an issue first to deliberate what you'd prefer to change.
-
-# License
-
-- This project is open-source and available under the MIT License
 <h1></h1>
 <p align="center">
   <img alt="Ecommerse Backend API BASED" src="https://github.com/chandrika1645/FunkyTee-App/blob/main/client/build/images/banner.jpg">
